@@ -1,0 +1,60 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: #2c3c3f;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+.app-container {
+  width: 420px;
+  padding: 35px 30px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.app-container h1 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.app-container h2 {
+  font-weight: 400;
+  margin: 6px 0;
+}
+
+
+.btn-group {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+.btn-group button {
+  background: #000000;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.btn-group button:hover {
+  background: #b4d3cd;
+  transform: scale(1.05);
+}
